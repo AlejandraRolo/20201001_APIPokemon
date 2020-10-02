@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header{
+    width: 100%;
+}
+
+.posicion-rae{
+    z-index: -1;
+    top: 170px;
+}
+
+.pointer > li > a{
+    cursor: pointer;
+    color: #000;
+    background: #ffc107;
+}
+
+.pointer > li > a:hover{
+    color: #000;
+    background:#aaa8a3;
+}
+
+.border-container{
+    box-shadow: 0 0 8px #333;
+}

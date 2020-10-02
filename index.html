@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon API</title>
+    <meta name="authors" content="Yazmín Alejandra Rodriguez">
+  
+    <link rel="styleSheet" href="./assets/css/bootstrap_4.5.2.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="styleSheet" href="./assets/css/index.css" type="text/css">
+</head>
+
+<body>
+    
+    <div class="header position-fixed mb-5">
+        <header class="bg-dark text-center text-light p-2">
+            <h1>Album Pokemon por @AlejandraRolo</h1>
+        </header>
+    </div>
+    <!-- contenido de personajes -->
+    <main>
+        <div class="container position-relative posicion-rae">
+            <div class="row">
+                <div class="col-2"><ul id="paginacion" class="pagination pointer"></ul></div>
+                <div id="displayPag" class="col-10"></div>
+            </div>
+            <div id="datosPokemon" class="row position-absolute"></div>
+        </div>
+    </main>
+
+    <footer class="py-3 bg-footer">
+        <div class="footer-copyright text-center py-3">© 2020 Autor: <b>Yazmín Alejandra Rodríguez López</b></div>
+    </footer>
+    
+
+    <script src="./assets/js/jquery_3.5.1.min.js"></script>  <!--Va primero Jquery-->
+    <script src="./assets/js/popper_1.16.1.min.js"></script>
+    <script src="./assets/js/bootstrap_4.5.2.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./assets/js/obtenerPokemon.js"></script> <!--Conectamos la hoja de js-->
+</body>
+</html>
